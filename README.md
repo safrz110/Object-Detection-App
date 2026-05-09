@@ -1,4 +1,4 @@
-# 🎯 Real-Time Object Detection Web Application
+#  Real-Time Object Detection Web Application
 
 <div align="center">
 
@@ -10,13 +10,13 @@
 
 **An interactive web application for detecting 80+ object categories in images and video streams using state-of-the-art YOLOv8 architecture.**
 
-[🚀 Live Demo](#) · [📖 Documentation](#installation) · [🐛 Report Bug](../../issues) · [✨ Request Feature](../../issues)
+[ Live Demo](#) · [ Documentation](#installation) · [ Report Bug](../../issues) · [ Request Feature](../../issues)
 
 </div>
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Features](#-features)
@@ -32,7 +32,7 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 This project implements a **production-ready object detection pipeline** using the YOLOv8 (You Only Look Once v8) neural network. The application exposes a polished **Streamlit web interface** that allows users to:
 
@@ -45,24 +45,24 @@ All inference runs on **standard CPU hardware** — no GPU required, making it a
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Details |
 |---|---|
-| 🧠 YOLOv8 Inference | Nano → Large model selection |
-| 🎯 80 COCO Categories | Person, vehicle, animal, household objects, and more |
-| 📊 Confidence Threshold | Adjustable from 10% to 95% via sidebar slider |
-| 📐 NMS / IoU Control | Fine-tune Non-Maximum Suppression overlap threshold |
-| 🎥 Video Processing | Upload MP4/AVI/MOV with per-frame annotation |
-| 📷 Live Webcam | Real-time feed detection (local deployment) |
-| ⬇️ Download Results | Export annotated images as PNG |
-| 📋 Detection Table | Full breakdown with labels, confidence, and bbox coords |
-| 📈 FPS Monitoring | Live frames-per-second overlay on video feeds |
-| 🌙 Dark UI | GitHub-inspired dark theme with custom CSS |
+|  YOLOv8 Inference | Nano → Large model selection |
+|  80 COCO Categories | Person, vehicle, animal, household objects, and more |
+|  Confidence Threshold | Adjustable from 10% to 95% via sidebar slider |
+|  NMS / IoU Control | Fine-tune Non-Maximum Suppression overlap threshold |
+|  Video Processing | Upload MP4/AVI/MOV with per-frame annotation |
+|  Live Webcam | Real-time feed detection (local deployment) |
+|  Download Results | Export annotated images as PNG |
+|  Detection Table | Full breakdown with labels, confidence, and bbox coords |
+|  FPS Monitoring | Live frames-per-second overlay on video feeds |
+|  Dark UI | GitHub-inspired dark theme with custom CSS |
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -82,7 +82,7 @@ All inference runs on **standard CPU hardware** — no GPU required, making it a
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 object-detection-app/
@@ -104,7 +104,7 @@ object-detection-app/
 
 ---
 
-## ⚡ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -149,13 +149,13 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Image Detection
 
 1. Launch the app (`streamlit run app.py`)
 2. Select a YOLOv8 model and adjust confidence from the **sidebar**
-3. Go to **📷 Image Detection** tab
+3. Go to ** Image Detection** tab
 4. Upload a `.jpg`, `.png`, or `.webp` image
 5. View the annotated result, detection table, and download the output
 
@@ -164,30 +164,30 @@ Open **http://localhost:8501** in your browser.
 1. Go to the **🎥 Video Detection** tab
 2. Upload an MP4/AVI/MOV file
 3. Set **max frames** and **frame skip** controls
-4. Click **▶️ Run Detection on Video**
+4. Click ** Run Detection on Video**
 5. Watch detections stream frame by frame
 
 ### Live Webcam (Local Only)
 
 1. Run the app locally (not on Streamlit Cloud)
 2. Select **Live Webcam** in the video tab
-3. Click **📷 Start Webcam Feed**
+3. Click ** Start Webcam Feed**
 4. Detections appear with real-time FPS overlay
 
 ### Sidebar Controls
 
 | Control | Description |
 |---|---|
-| 🤖 Model | n / s / m / l — trade speed for accuracy |
-| 🎯 Confidence | Filter out low-confidence detections |
-| 📐 IoU (NMS) | Control duplicate-box suppression |
-| 🔢 Max Detections | Cap objects per frame |
-| 🎨 Labels / Conf display | Toggle text overlays |
-| 📏 Box Thickness | 1–5 px bounding box weight |
+|  Model | n / s / m / l — trade speed for accuracy |
+|  Confidence | Filter out low-confidence detections |
+|  IoU (NMS) | Control duplicate-box suppression |
+|  Max Detections | Cap objects per frame |
+|  Labels / Conf display | Toggle text overlays |
+|  Box Thickness | 1–5 px bounding box weight |
 
 ---
 
-## 🤖 Model Variants
+##  Model Variants
 
 | Model | Parameters | mAP50-95 | CPU Speed | Best For |
 |---|---|---|---|---|
@@ -201,7 +201,7 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## 🏷 COCO Classes
+##  COCO Classes
 
 The model detects all **80 MS-COCO categories**:
 
@@ -231,7 +231,7 @@ vase            scissors        teddy bear      hair drier      toothbrush
 
 ---
 
-## ☁️ Deployment — Streamlit Cloud
+##  Deployment — Streamlit Cloud
 
 ### One-Click Deploy
 
@@ -283,7 +283,7 @@ Create a new **Streamlit** Space and push the repo. Add a `README.md` header:
 ```yaml
 ---
 title: YOLOv8 Object Detector
-emoji: 🎯
+emoji: 
 colorFrom: blue
 colorTo: green
 sdk: streamlit
@@ -297,29 +297,29 @@ pinned: false
 
 ---
 
-## 🏭 Real-World Applications
+##  Real-World Applications
 
 ### 🔧 Manufacturing Quality Control
 Real-time defect detection on assembly lines. Identify misaligned components, surface scratches, or foreign objects at production speed without halting the line.
 
-### 🔐 Security Surveillance
+###  Security Surveillance
 Multi-camera person and vehicle tracking. Trigger alerts on unauthorized object detection (bags, weapons) in restricted zones.
 
-### 🚗 Autonomous Systems
+###  Autonomous Systems
 Core perception module for self-driving vehicles — pedestrian detection, traffic sign recognition, and obstacle avoidance.
 
-### 🏥 Medical Imaging
+###  Medical Imaging
 With fine-tuned weights, detect tumors, lesions, and anomalies in radiological scans. The pipeline supports custom datasets via Ultralytics training API.
 
-### 🛒 Retail Analytics
+###  Retail Analytics
 Customer foot-traffic counting, shelf occupancy monitoring, and queue detection for store optimization.
 
-### 🌾 Agriculture / Drone Imagery
+###  Agriculture / Drone Imagery
 Crop disease detection, pest identification, and automated yield counting from UAV footage.
 
 ---
 
-## 🗺 Roadmap
+##  Roadmap
 
 - [ ] Custom model training UI (upload dataset → train → deploy)
 - [ ] Multi-camera feed support
@@ -331,7 +331,7 @@ Crop disease detection, pest identification, and automated yield counting from U
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please:
 
@@ -343,13 +343,13 @@ Contributions are welcome! Please:
 
 ---
 
-## 📄 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) — state-of-the-art detection architecture
 - [Streamlit](https://streamlit.io) — rapid ML app framework
@@ -360,8 +360,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-**Built with ❤️ using YOLOv8 + Streamlit**
+**Built with  using YOLOv8 + Streamlit**
 
-⭐ Star this repo if you found it helpful!
-
-</div>
+Author
+Sarfaraz Ali
